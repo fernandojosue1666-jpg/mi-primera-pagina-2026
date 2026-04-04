@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mi cafetería</title>
+
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="icon" type="image/jpg" href="c:\Users\Josue\Documents\html\img del cafe\cafe.jpg">
+    
+    
+    </head>
+<body>
+
+    <div class="header">
+    <h1>☕ Café del Barrio</h1>
+    <p>El mejor café de la ciudad</p>
+</div>
+
+<div class="menu">
+    <h2>Nuestro Menú</h2>
+    
+    <div class="item">
+        <h3>Café Americano</h3>
+        <p>Café puro y intenso</p>
+        <span class="precio">$2.50</span>
+    </div>
+    
+    <div class="item">
+        <h3>Capuchino</h3>
+        <p>Café con leche espumosa</p>
+        <span class="precio">$3.50</span>
+    </div>
+    
+    <div class="item">
+        <h3>Latte</h3>
+        <p>Café suave con mucha leche</p>
+        <span class="precio">$3.00</span>
+    </div>
+    
+    <div class="item">
+        <h3>Croissant</h3>
+        <p>Hojaldre crujiente</p>
+        <span class="precio">$2.00</span>
+    </div>
+    
+    <button onclick="mostrarOferta()">Ver oferta del día</button>
+    <p id="oferta" style="display:none; margin-top:15px; color:#d2691e; font-weight:bold;">🎉 2x1 en Capuchinos hoy!</p>
+</div>
+
+<div class="footer">
+    <p>📍 Calle Principal #123 | 📞 555-1234</p>
+    <p>Horario: Lunes a Domingo 8am - 8pm</p>
+</div>
+
+<script>
+function mostrarOferta() {
+    document.getElementById("oferta").style.display = "block";
+}
+</script>
+
+
+    
+</body>
+    
+</html>
